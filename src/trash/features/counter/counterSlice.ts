@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { RootState, AppThunk } from "bll/store";
+import { RootState, AppThunk } from "app/bll/store";
 import { fetchCount } from "trash/features/counter/counterAPI";
 
 export interface CounterState {
